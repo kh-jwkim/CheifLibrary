@@ -14,7 +14,7 @@ public interface LibraryViewI {
 	
 	public void displayLibraryList(ArrayList<Library> list);
 	public void displayLibraryList(Library library);
-	public void displaySucess(String string);
+	public void displaySucess(int res, String category);
 	
 	public String inputUserId();
 	public String inputBookName();
